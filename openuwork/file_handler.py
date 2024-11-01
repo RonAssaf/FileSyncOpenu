@@ -1,8 +1,8 @@
 import os
 import time
 from watchdog.events import FileSystemEventHandler
-from network import sync_file, sync_delete, sync_directory
-from utils import md5
+from openuwork.network import sync_file, sync_delete, sync_directory
+from openuwork.utils import md5
 from config.settings import SYNC_MARKER_DIR, DEBOUNCE_DELAY
 
 

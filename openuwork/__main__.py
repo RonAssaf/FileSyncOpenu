@@ -2,8 +2,8 @@ import sys
 import threading
 import time
 from watchdog.observers import Observer
-from file_handler import DirectoryEventHandler
-from network import start_server
+from openuwork.file_handler import DirectoryEventHandler
+from openuwork.network import start_server
 
 # TODO: remove it before submit
 from config.settings import (
